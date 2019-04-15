@@ -31,7 +31,7 @@ $(document).ready(function() {
     $("#result-title").text(flavor.title);
     $("#results img").attr("src", flavor.src);
     $("#results").removeClass("hidden", function() {
-      $("#result_image").focus();
+      $("#results").focus();
     });
   });
 });
