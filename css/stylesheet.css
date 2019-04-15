@@ -5,3 +5,31 @@
 .hidden {
   display: none;
 }
+
+#mocktail_page {
+	background-color:#AAEEEE;
+}
+
+.mocktail {
+	width:300px;
+	height:300px;
+}
+
+.mocktailImgDiv {
+	float:left;
+}
+
+.recipe {
+	float:left;
+	margin-left:50px;
+	padding:10px;
+	background-color:#FFFF99;
+}
+
+.recipeRow{
+    height:350px;
+}
+
+.breaker {
+	clear:both;
+}
