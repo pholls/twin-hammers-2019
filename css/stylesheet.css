@@ -78,10 +78,6 @@ h2 {
 	text-align: center;
 }
 
-input[type="radio"] {
-	vertical-align: middle;
-}
-
 #scrollable-content {
 	height: 800px;
 	width: 600px;
