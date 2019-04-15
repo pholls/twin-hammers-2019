@@ -5,8 +5,9 @@ $(document).ready(function() {
   $double_butts.on("submit", function(e) {
     e.preventDefault();
 
-    $("#results").addClass("hidden");
-    $("#result-title").text("")
+    var $results = $("#results");
+    $results.addClass("hidden");
+    $("#result-title").text("");
 
     var sum = 0;
     $("input:checked").each(function(x) {
@@ -15,6 +16,7 @@ $(document).ready(function() {
     });
 
     var flavor = LA_CROIX_NAMES[sum % LA_CROIX_NAMES.length];
+    $results.removeClass("hidden");
     $("#result-title").text(flavor);
 
     // $("#results img").attr("src", "images/" + flavor + ".png");
