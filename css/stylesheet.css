@@ -40,9 +40,71 @@ body{
 }
 h1 {
   text-align:center;
+  font-size: 2.5rem;
 }
 h2 {
 	text-align:center;
+  font-size: 2rem;
+  color: #FF00FF;
+}
+h3 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+p {
+  font-size: 1.5rem;
+}
+hr {
+  margin-top: 45px;
+}
+li {
+  font-size: 1.5rem;
+}
+
+/* Add button stylings for some links */
+.btn-blue {
+  background-color: blue;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+.btn-green {
+  background-color: green;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+.btn-gold {
+  background-color: gold;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+.btn-orange {
+  background-color: orange;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+.btn-purple {
+  background-color: #FF00FF;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+  padding: 15px;
 }
 
 /* Add a black background color to the top navigation */
@@ -82,4 +144,13 @@ h2 {
 	height: 800px;
 	width: 600px;
   overflow: auto;
+}
+
+/* Add a white background and some margins to center content blocks */
+.content {
+  width: 80%;
+  background-color: #fff;
+  border: thin solid #FF00FF;
+  padding: 20px;
+  margin: 20px auto;
 }
