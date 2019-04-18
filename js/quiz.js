@@ -8,7 +8,7 @@ $(document).ready(function () {
     { title: "Pure", src: "images/horoscope_images/pure.jpg", description: "Bold and original, like you, Pure was initially developed as a cologne fragrance before being pivoted into a LaCroix flavor." },
     { title: "Tangerine", src: "images/horoscope_images/tangerine.jpg", description: "\"Tangerine\" is French for \"tiny-ass orange\"." },
     { title: "Lemon", src: "images/horoscope_images/lemon.jpg", description: "When life gives you lemons, say \"H*ck the lemons!\" and bail." },
-    { title: "Kiwi Sandia", src: "images/horoscope_images/kiwi-sandia.jpg", description: "Kiwi is a bird. Sandia, or watermeon, is a fruit. What, do you play for Birdfruit or something?" },
+    { title: "Kiwi Sandia", src: "images/horoscope_images/kiwi-sandia.jpg", description: "Kiwi is a bird. Sandia, or watermelon, is a fruit. What, do you play for Birdfruit or something?" },
     { title: "Cerise Limon", src: "images/horoscope_images/cerise-limon.jpg", description: "Cersei Limonnister, first of her name, Protector of the Seven Kingdoms." },
     { title: "Berry", src: "images/horoscope_images/berry.jpg", description: "You're quirky, like the kind of person who pronounces \"berry\" to rhyme with \"LaCroix\"." },
     { title: "Pamplemousse", src: "images/horoscope_images/pamplemousse.jpg", description: "u r pamplemousse" },
